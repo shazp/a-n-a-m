@@ -1,0 +1,26 @@
+@import url('reset.css');
+
+.cv_content{ margin-left:12px; margin-top:225px; border-radius:5px 5px 0 0;
+	position:relative; height:100px; width:70%; top:17%; left:0px; }
+.cv_background{ width:200px; z-index: 300;}
+.cv_menu{ background-color: rgba(255, 186, 0, 0.9); border-radius: 0 15px 15px 0; float:left; position:relative; height:90px; width:0px; }
+.cv_menu > ul{ float:right; margin-right: 10px;}
+.cv_menu > ul > li{ float:left; position:static; height:90px; cursor: pointer;}
+.cv_menu > ul > li a{ color:rgba(255,255,255,0.9); opacity:0; display:block; font-family:neutraLight,courier; font-size: 1.3em; 
+	text-decoration:none; margin-top:40px; height:90px; padding:0px 15px; text-align:center; line-height:90px; outline:none;}
+.cv_menu > ul > li a:hover{color:rgba(103,103,103,0.75);}
+
+.cv_subitem{ border-radius: 0 15px 15px 0; width:700px; height:0px; top:50%; right:0px; margin-top:0px; 
+	position:absolute; z-index:99; overflow:hidden; background-color: rgba(103, 103, 103,0.5);}
+.cv_subitem h2{	font-size:1.2em; color:#fff; padding: 40px 0px 0px 40px; text-shadow:0px 0px 1px #000;}
+.cv_subitem ul{ padding:0px 40px;}
+.cv_subitem ul li{ font-size:0.8em ;margin:10px 0px; color:rgba(103,103,103,1); }
+.cv_subitem ul li:first-child{ font-size:0.75em; color:rgba(255,255,255,0.9); text-transform:none; 
+	border-bottom:5px solid rgba(254, 7, 69,0.6); padding-bottom:15px; margin-bottom:15px;}
+.cv_subitem ul li p{ margin:10px 0px; color:white; font-style: normal; font-size: 0.9em; }
+
+span.cv_close{ float:right; margin:10px; opacity:0.4; width:60px; height:60px; cursor:pointer;
+	background:transparent url(../images/close.png) no-repeat top left;}
+span.cv_close:hover{ opacity:1.0;}
+
+
